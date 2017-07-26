@@ -76,7 +76,7 @@ $('#TextToAnalyze').submit ( function (event) {
 	  var textReport = $('.js-text-report');
       
       // in case there's already results
-      textReport.empty();
+      //textReport.empty();
 
       textReport.find('.js-word-count').text(wordCount);
       textReport.find('.js-unique-word-count').text(uniqueWordCount);
